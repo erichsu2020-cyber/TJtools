@@ -41,6 +41,16 @@ const TOOLS: Tool[] = [
     gradient: "from-red-700 to-red-950",
     accent: "text-red-700 dark:text-red-400",
   },
+  {
+    name: "MBTI 性格分析",
+    tagline: "AI 幫你分析十六型人格",
+    description:
+      "描述你的個性、行為模式或喜好，交給 AI 分析最符合的 MBTI 類型，並說明四大維度的判斷依據。",
+    href: "/mbit",
+    icon: "🧠",
+    gradient: "from-indigo-600 to-purple-800",
+    accent: "text-indigo-600 dark:text-indigo-400",
+  },
 ];
 
 export default function Home() {
