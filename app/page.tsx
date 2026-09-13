@@ -51,6 +51,36 @@ const TOOLS: Tool[] = [
     gradient: "from-indigo-600 to-purple-800",
     accent: "text-indigo-600 dark:text-indigo-400",
   },
+  {
+    name: "禮物推薦",
+    tagline: "AI 幫你想送什麼禮物",
+    description:
+      "選擇收禮對象的年齡、地區、興趣、預算與場合，交給 AI 推薦幾個合適的禮物選項。",
+    href: "/gift",
+    icon: "🎁",
+    gradient: "from-pink-500 to-rose-700",
+    accent: "text-pink-600 dark:text-pink-400",
+  },
+  {
+    name: "動漫圖片生成",
+    tagline: "文字描述秒變動漫插畫",
+    description:
+      "輸入一段畫面描述，交給 AI 生成一張動漫卡通風格的插畫圖片。",
+    href: "/image",
+    icon: "🎨",
+    gradient: "from-cyan-500 to-blue-700",
+    accent: "text-cyan-600 dark:text-cyan-400",
+  },
+  {
+    name: "QR Code 產生器",
+    tagline: "網址秒變 QR code",
+    description:
+      "輸入網址，一鍵產生對應的 QR code，方便分享與掃描。",
+    href: "/qrcode",
+    icon: "📱",
+    gradient: "from-teal-500 to-emerald-700",
+    accent: "text-teal-600 dark:text-teal-400",
+  },
 ];
 
 export default function Home() {
